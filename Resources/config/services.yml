@@ -1,8 +1,8 @@
 parameters:
 #    open_middleware.example.class: OpenApi\OpenMiddlewareBundle\Example
      open_middleware.api.gateway: https://openmiddleware.pl/orange/oracle/
-     open_middleware.api.user: hackathon18
-     open_middleware.api.password: hBzCr7De
+     open_middleware.api.user: user
+     open_middleware.api.password: pass
 
 services:
 #    open_middleware.example:
