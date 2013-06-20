@@ -15,10 +15,10 @@ services:
         arguments: [%open_middleware.api.gateway%]
 
     open_middleware.api:
-        class: OpenApi\OpenMiddlewareBundle\Api\Api
+        class: OpenMiddleware\Bundle\Api\Api
         arguments: [@http_client, %open_middleware.api.user%, %open_middleware.api.password%]
 
     open_middleware.api.sms:
-        class: OpenApi\OpenMiddlewareBundle\Api\SmsApi
+        class: OpenMiddleware\Bundle\Api\SmsApi
         parent: open_middleware.api
 
