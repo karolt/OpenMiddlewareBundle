@@ -1,5 +1,5 @@
 <?php
-namespace OpenApi\OpenMiddlewareBundle;
+namespace OpenMiddleware\Bundle;
 
 
 class Sms

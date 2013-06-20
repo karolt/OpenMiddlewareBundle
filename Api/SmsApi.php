@@ -1,7 +1,7 @@
 <?php
-namespace OpenApi\OpenMiddlewareBundle\Api;
+namespace OpenMiddleware\Bundle\Api;
 
-use OpenApi\OpenMiddlewareBundle\Sms;
+use OpenMiddleware\Bundle\Sms;
 
 class SmsApi extends Api
 {

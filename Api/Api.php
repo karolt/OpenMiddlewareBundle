@@ -1,5 +1,5 @@
 <?php
-namespace OpenApi\OpenMiddlewareBundle\Api;
+namespace OpenMiddleware\Bundle\Api;
 
 use Guzzle\Http\Client;
 

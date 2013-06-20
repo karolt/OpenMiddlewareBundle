@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenApi\OpenMiddlewareBundle;
+namespace OpenMiddleware\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
