@@ -5,6 +5,8 @@ use OpenMiddleware\Bundle\Sms;
 
 class SmsApi extends Api
 {
+    const METHOD_SEND_SMS = "sendSms";
+
     public function send(Sms $sms)
     {
         $data = [
@@ -13,7 +15,7 @@ class SmsApi extends Api
             'to'    => $sms->getTo()
         ];
 
-        $response = $this->makeCall("sendSms", $data);
+        $response = $this->makeCall(self::METHOD_SEND_SMS, $data);
 
        //var_dump($response->getBody(true));
     }
