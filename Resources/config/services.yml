@@ -16,3 +16,6 @@ services:
         class: OpenMiddleware\Bundle\Api\SmsApi
         parent: open_middleware.api
 
+    open_middleware.api.ussd:
+        class: OpenMiddleware\Bundle\Api\UssdApi
+        parent: open_middleware.api
