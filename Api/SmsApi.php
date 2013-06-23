@@ -16,7 +16,5 @@ class SmsApi extends Api
         ];
 
         $response = $this->makeCall(self::METHOD_SEND_SMS, $data);
-
-       //var_dump($response->getBody(true));
     }
 }
