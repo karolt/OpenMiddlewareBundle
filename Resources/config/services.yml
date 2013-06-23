@@ -1,15 +1,9 @@
 parameters:
-#    open_middleware.example.class: OpenApi\OpenMiddlewareBundle\Example
      open_middleware.api.gateway: https://openmiddleware.pl/orange/oracle/
      open_middleware.api.user: user
      open_middleware.api.password: pass
 
 services:
-#    open_middleware.example:
-#        class: %open_middleware.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
-
-
     http_client:
         class: Guzzle\Http\Client
         arguments: [%open_middleware.api.gateway%]
